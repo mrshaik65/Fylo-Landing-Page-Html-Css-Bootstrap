@@ -1,0 +1,146 @@
+  nav{
+    flex-wrap: wrap;
+}
+ ::-webkit-input-placeholder {
+        transform: translateX(-30px);
+        font-size: 12.5px;
+        opacity: 50%;
+      }
+.curve{
+    margin-top: 150px;
+}
+.topic-2{
+    padding-bottom: 100px;
+    display: flex;
+    gap: 100px;
+
+}
+#horizontal-line{
+    width: 162px;
+    height: 2px;
+    background-color: green;
+    transform: translateY(-5px);
+}
+.qoute{
+    height: 15px;
+    width: 15px;
+}
+
+.card{
+    height: 180px;
+    width: 350px;
+    padding: 25px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.171);
+    margin-top: 35px;
+}
+.card-text{
+    font-size: 12.5px;
+}
+.avtar img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+}
+.fouder-name{
+    float:right;
+    font-size: 10px;
+    font-weight: bold;
+    transform: translateX(-198px);
+}
+.founder{
+    font-size: 7.5px;
+    float: right;
+    transform: translate(-96px,15px);
+}
+.svg-2 img{
+    height: 330px;
+    width: 430px;
+    margin: 30px;
+}
+.cta{
+    background-color: rgb(87, 89, 137);
+    color: white;
+    padding: 70px 45px 70px 45px;
+    gap: 340px;
+    margin-left: -45px;
+}
+.get-start-input{
+    padding-left: 60px;
+    padding-right: 100px;
+}
+.get-start-btn{
+    background-color: rgb(47, 101, 249);
+    color: white;
+    padding: 6px 30px 6px 30px;
+    margin-top: 5px;
+}
+.footer{
+     background-color: rgb(7, 4, 59);
+     padding: 50px 0px 50px  0px;
+     display: flex;
+     flex-direction: row;
+     gap: 150px;
+     padding: 70px 0px;
+     
+}
+.footer-icon{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.logo-text{
+    color: white;
+    transform: translate(-90px,-15px);
+    float: right;
+    font-size:50px;
+}
+.phone{
+    color: rgb(215, 204, 228);
+    padding-top: 20px;
+    
+    
+}
+.phone-logo{
+    padding-right: 10px;
+    
+}
+.email{
+    color: rgb(215, 204, 228);
+}
+.email-logo{
+ padding-right: 13px;
+}
+.footer-lists-1{
+color: rgb(215, 204, 228);
+list-style: none;
+margin-top: 65px;
+}
+
+.footer-lists-2{
+color: rgb(215, 204, 228);
+list-style: none;
+margin-top: 65px;
+}
+.facebook{
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    border: 0.1px solid rgb(215, 204, 228);;
+    
+    
+}
+.twitter{
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    border: 0.1px solid rgb(215, 204, 228) ;
+    margin: 0px 10px;
+
+}
+.instagram{
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    border: 0.1px solid rgb(215, 204, 228);
+}
