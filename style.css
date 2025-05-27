@@ -1,4 +1,7 @@
-  nav{
+body{
+    width: 1351px;
+}
+nav{
     flex-wrap: wrap;
 }
  ::-webkit-input-placeholder {
