@@ -10,16 +10,23 @@ ul {
 
 /* Hero Section */
 
+.hero-section {
+  margin: 3rem;
+}
+
 .hero-img {
   width: 600px;
 }
 
 .hero-text h1 {
   font-size: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
 }
 
 .hero-text h6 {
   font-size: rem;
+  margin-bottom: 2rem;
 }
 
 /* About Section */
@@ -45,6 +52,7 @@ ul {
   box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.171);
   margin-top: 3rem;
 }
+
 .qoute {
   height: 15px;
   width: 15px;
@@ -53,16 +61,19 @@ ul {
 .card-text {
   font-size: 12.5px;
 }
+
 .avtar img {
   height: 30px;
   width: 30px;
   border-radius: 50px;
 }
+
 .fouder-name {
   font-size: 10px;
   font-weight: bold;
   margin: 0px 0px 0px 4px;
 }
+
 .founder {
   font-size: 7.5px;
   margin: 0px 0px 0px 4px;
@@ -80,14 +91,17 @@ ul {
 .cta h6 {
   max-width: 500px;
 }
+
 .cta-form {
   display: flex;
   flex-direction: column;
   align-items: start;
 }
+
 .cta-form input {
   padding: 0.2rem 7rem;
 }
+
 .cta-form button {
   padding: 0px 0px;
 }
@@ -98,28 +112,9 @@ footer {
   background-color: rgb(7, 4, 59);
   color: white;
 }
+
 .footer-logo {
   filter: brightness(0) invert(1);
-}
-
-.facebook {
-  height: 25px;
-  width: 25px;
-  border-radius: 50px;
-  border: 0.1px solid rgb(215, 204, 228);
-}
-.twitter {
-  height: 25px;
-  width: 25px;
-  border-radius: 50px;
-  border: 0.1px solid rgb(215, 204, 228);
-  margin: 0px 10px;
-}
-.instagram {
-  height: 25px;
-  width: 25px;
-  border-radius: 50px;
-  border: 0.1px solid rgb(215, 204, 228);
 }
 
 .footer-item1 p {
@@ -134,67 +129,123 @@ footer {
   color: rgb(215, 204, 228);
 }
 
+.footer-item4 {
+  display: flex;
+  justify-content: start;
+}
+
+.facebook {
+  height: 25px;
+  width: 25px;
+  border-radius: 50px;
+  border: 0.1px solid rgb(215, 204, 228);
+}
+
+.twitter {
+  height: 25px;
+  width: 25px;
+  border-radius: 50px;
+  border: 0.1px solid rgb(215, 204, 228);
+  margin: 0px 10px;
+}
+
+.instagram {
+  height: 25px;
+  width: 25px;
+  border-radius: 50px;
+  border: 0.1px solid rgb(215, 204, 228);
+}
+
 /* Media Queries */
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   nav {
     margin: 2rem;
   }
+
   .nav-logo {
     width: 100px;
   }
+
   .nav-ul {
     gap: 20px;
   }
+
   .hero-section {
     flex-direction: column-reverse;
     text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
   }
+
   .hero-text h1 {
     font-size: 2rem;
   }
+
   br {
     display: none;
   }
+
   .hero-input {
     margin-bottom: 1.5rem;
   }
+
   .hero-btn {
     width: 280px;
   }
+
   .about {
     flex-direction: column-reverse;
   }
+
+  .about-text h1 {
+    margin: 5rem 0rem;
+  }
+
   .about-work {
     display: flex;
     justify-content: center;
     margin-top: 35px;
   }
+
   .cta {
     flex-direction: column;
     gap: 20px;
     text-align: center;
   }
-  .cta-form {
+
+  .cta-text {
+    display: flex;
     justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
   }
+
+  .cta-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+  }
+
   .cta-form input {
     margin-bottom: 1.5rem;
     padding: 0.2rem 3rem;
   }
+
   .cta-form button {
     width: 280px;
   }
+
   footer {
     display: flex;
     flex-direction: column;
   }
+
   .footer-items {
     flex-direction: column;
     gap: 2.5rem;
-  }
-  .footer-item4 {
-    position: relative;
-    left: 5rem;
   }
 }
